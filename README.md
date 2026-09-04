@@ -2,6 +2,14 @@
 
 ![hw1](5.Docs/2.Images/hw1.jpg)
 
+## English Overview
+
+HelloWord is an open-source, modular mechanical keyboard designed around a replaceable interaction module on its left side. The default “Dynamic” module combines an e-paper display, an OLED screen, and a force-feedback rotary control driven by a FOC motor. The keyboard and module run custom firmware for ARM Cortex-M microcontrollers and can operate independently or communicate through a serial protocol.
+
+This repository includes the source files for ten keyboard PCBs in EasyEDA Pro format, enclosure design files, keyboard firmware, the initial Dynamic-module firmware framework, and a work-in-progress secondary-development SDK. The main keyboard uses a shift-register-based scanning circuit, while the modular interface is intended to support future custom controls and displays.
+
+Project demonstrations are available on [Bilibili](https://www.bilibili.com/video/BV19V4y1J7Hx) and [YouTube](https://www.youtube.com/watch?v=mGShD9ZER1c). Please use Issues only for development-related bug reports and technical discussion; use GitHub Discussions for general conversation. Review the Chinese documentation below for hardware notes, firmware status, flashing guidance, and known limitations.
+
 > `瀚文` 智能键盘是一把我为自己使用需求设计的 **多功能**、**模块化** 机械键盘。
 >
 > 键盘使用模块化设计，左侧的**多功能场景交互模块**可以替换成各种自定义组件，默认使用的是一个带电子墨水屏以及FOC力反馈旋钮的`Dynamic组件`；键盘使用我自己开发的基于ARM Cortex-M芯片的键盘固件以及模块固件；键盘本体使用移位寄存器方式实现优化的按键扫描电路；模块以及键盘本体可以单独使用，也可以通过串口协议进行相互通信和调用。
@@ -239,4 +247,3 @@ while (true)
 > [simplefoc/Arduino FOC for BLDC  (github.com)](https://github.com/simplefoc/Arduino-FOC)
 >
 > [zhongyang219/TrafficMonitor: 这是一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。 (github.com)](https://github.com/zhongyang219/TrafficMonitor)
-
