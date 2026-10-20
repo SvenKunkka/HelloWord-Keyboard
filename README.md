@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # 【瀚文】HelloWord-Smart Keyboard
 
 ![hw1](5.Docs/2.Images/hw1.jpg)
@@ -247,3 +251,32 @@ while (true)
 > [simplefoc/Arduino FOC for BLDC  (github.com)](https://github.com/simplefoc/Arduino-FOC)
 >
 > [zhongyang219/TrafficMonitor: 这是一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。 (github.com)](https://github.com/zhongyang219/TrafficMonitor)
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+来自 [peng-zhihui/HelloWord-Keyboard](https://github.com/peng-zhihui/HelloWord-Keyboard) 的瀚文模块化机械键盘 Fork，包含 PCB、结构模型和固件资料；Dynamic 模块结合墨水屏、OLED 与 FOC 力反馈旋钮。
+
+**使用入口：** 按原文的 Hardware、Firmware、Software 和 3D Model 文件说明浏览资料；STM32 工程可使用对应 `.ioc` 文件与 CubeMX/CubeIDE 等工具。
+
+**范围说明：** Dynamic 扩展与二次开发 SDK 在原说明中仍标为开发中。保留上游作者及结构设计贡献者归属。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A fork of [peng-zhihui/HelloWord-Keyboard](https://github.com/peng-zhihui/HelloWord-Keyboard), the modular HelloWord mechanical keyboard, with PCB, enclosure, and firmware resources. Its Dynamic module combines e-paper, OLED, and an FOC force-feedback knob.
+
+**Getting started:** Use the original Hardware, Firmware, Software, and 3D Model sections to navigate the files; STM32 projects include `.ioc` files for tools such as CubeMX and CubeIDE.
+
+**Scope:** Dynamic extensions and the secondary-development SDK remain work in progress in the original documentation. Upstream authors and enclosure contributors retain credit.
+
+**本 Fork 的维护者 / Maintainer of this fork:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+**上游项目 / Upstream:** [peng-zhihui/HelloWord-Keyboard](https://github.com/peng-zhihui/HelloWord-Keyboard)。保留原作者署名与原许可证 / Original authorship and license notices are retained.
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
